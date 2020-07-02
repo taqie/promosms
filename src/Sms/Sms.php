@@ -45,6 +45,7 @@ abstract class Sms
         $data = [
             'text' => $this->content,
             'type' => $this->type,
+            'sender' => $this->sender,
             'recipients' => $this->recipients,
             'special-chars' => $this->specialChars,
             'long-sms' => $this->longSms,
@@ -62,7 +63,7 @@ abstract class Sms
             }
         }
 
-        return Arr::except($toExcept, $data);
+        return Arr::except($data,$toExcept);
     }
 
 }
