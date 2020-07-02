@@ -1,0 +1,32 @@
+{
+    "name": "taqie/promosms",
+    "license": "MIT",
+    "type": "library",
+    "description": "",
+    "require": {
+        "laravel/framework": "7.18.0",
+        "php": "^7.4"
+    },
+    "authors": [
+        {
+            "name": "Gracjan Kubicki",
+            "email": "graca.kubicki@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Taqie\\PromoSMS\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Taqie\\PromoSMS\\Providers\\PromoSmsServiceProvider"
+            ],
+            "aliases": {
+                "PromoSms": "Taqie\\PromoSMS\\Facades\\PromoSmsFacade"
+            }
+        }
+    }
+}
