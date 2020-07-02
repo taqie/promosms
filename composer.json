@@ -5,7 +5,8 @@
     "description": "",
     "require": {
         "laravel/framework": "7.18.0",
-        "php": "^7.4"
+        "php": "^7.4",
+        "guzzlehttp/guzzle": "7.0.*"
     },
     "authors": [
         {
