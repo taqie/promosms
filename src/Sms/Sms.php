@@ -30,7 +30,7 @@ abstract class Sms
 
     protected ?array $userIndexes = null;
 
-    protected ?bool $returnSendRecipients = null;
+    protected ?bool $returnSendRecipients = true;
 
     public function __construct(string $content, array $recipients, ?int $dateTimestamp = null, ?string $sender = null)
     {
