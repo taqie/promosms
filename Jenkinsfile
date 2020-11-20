@@ -3,7 +3,8 @@ pipeline {
     stages {
         stage('build') {
             steps {
-               build '../archelp/master'
+              // build '../archelp/master'
+                echo 'hello wrold'
             }
         }
     }
