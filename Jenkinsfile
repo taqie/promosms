@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
               // build '../archelp/master'
-                echo 'hello wrold'
+                echo 'hello wrodddld'
             }
         }
     }
