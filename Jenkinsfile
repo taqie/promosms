@@ -1,15 +1,15 @@
 pipeline {
-    //agent any
-    //stages {
-    //    stage('build') {
-    //        steps {
+    agent any
+    stages {
+        stage('build') {
+            steps {
               //build '../archelp/master'
-              //  build job: 'archelp'
+                build job: 'archelp'
               //  echo 'hello wrodddld'
               //  echo 'hello wrodddld
-     //       }
-    //    }
-    //}
+           }
+        }
+    }
 }
 
 
