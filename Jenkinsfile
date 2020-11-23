@@ -5,6 +5,7 @@ pipeline {
             steps {
               // build '../archelp/master'
                 echo 'hello wrodddld'
+                echo 'hello wrodddld'
             }
         }
     }
