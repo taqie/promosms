@@ -29,7 +29,5 @@ class Request
         $response = $this->client->post('sms',[
             'form_params' => $sms->toArray()
         ])->getBody()->getContents();
-
-        dd($response,$sms->toArray());
     }
 }
