@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Taqie\PromoSMS\Providers;
 use Illuminate\Support\ServiceProvider;
 use Taqie\PromoSMS\PromoSms;
